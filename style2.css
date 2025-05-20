@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Noto+Sans+JP&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logoheader{
+    height:
+    width:
+
+}
+header{
+    color: white;
+    background-color: #1a1b21;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.container{
+
+}
+.Polityka_Prywatności{
+    padding-left: 600px;
+    background-color: darkgray;
+    
+}
+footer{
+    color: white;
+    font-size: 25px;
+    background-color: #1a1b21;
+    padding: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.navbar,a {
+color:white;
+}
+.fb img,a{
+    height:100px ;
+    width:100px ;
+}

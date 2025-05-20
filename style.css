@@ -9,14 +9,13 @@ body{
 header{
     color: white;
     background-color: #1a1b21;
-    font-size: 25px;
     padding: 20px;
 }
 
 
 .logohead{
     float: left;
-    height: 60px;
+    height: 45px;
     width: auto;
     padding-right: 5px;
 }
@@ -25,9 +24,38 @@ footer{
     color: white;
     font-size: 25px;
     background-color: #1a1b21;
-    padding: 60px;
+    padding: 50px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.info1{
+  float: right;  
+  width: 200px;
+  position: fixed
+  ;
+}
+
+#i{
+    display: flex;
+    float: left;
+}
+
+#o{
+    display: flex;
+}
+
+.kwul{
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: larger;
+    float: right;
+}
+
+.idfc{
+    background-color: blue;
 }

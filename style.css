@@ -1,61 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-body{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: 'Comfortaa';
-    background-color: #fff2e6;
+    background-color: #fdfdfd;
+    color: #333;
 }
 
-header{
-    color: white;
-    background-color: #1a1b21;
+header {
+    background-color: #ff90c2;
     padding: 20px;
+    text-align: center;
 }
 
-
-.logohead{
-    float: left;
-    height: 45px;
-    width: auto;
-    padding-right: 5px;
+header h1 {
+    margin: 0;
+    color: #fff;
 }
 
-footer{
-    color: white;
-    font-size: 25px;
-    background-color: #1a1b21;
-    padding: 50px;
-    position: fixed;
-    left: 0;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffb3d1;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #ff4d88;
+}
+
+footer {
+    background-color: #ff90c2;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: relative;
     bottom: 0;
     width: 100%;
-}
-
-.info1{
-  float: right;  
-  width: 200px;
-  position: fixed
-  ;
-}
-
-#i{
-    display: flex;
-    float: left;
-}
-
-#o{
-    display: flex;
-}
-
-.kwul{
-    margin-right: 120px;
-    margin-left: 120px;
-    margin-top: 30px;
-    padding: 20px;
-    font-size: larger;
-    float: right;
-}
-
-.idfc{
-    background-color: blue;
 }

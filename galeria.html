@@ -1,12 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Galeria - Brainrot Maskotki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff90c2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #ffb3d1;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #ff4d88;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #ff90c2;
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+<header>
+    <h1>Brainrot Maskotki</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona Główna</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="ofirmie.html">O Firmie</a></li>
+            <li><a href="oferta.html">Oferta</a></li>
+            <li><a href="powiazane.html">Powiązane</a></li>
+            <li><a href="regulamin.html">Regulamin</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Galeria Maskotek</h2>
+        <div class="gallery">
+            <img src="img/maskotka1.jpg" alt="Maskotka 1">
+            <img src="img/maskotka2.jpg" alt="Maskotka 2">
+            <img src="img/maskotka3.jpg" alt="Maskotka 3">
+            <img src="img/maskotka4.jpg" alt="Maskotka 4">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Brainrot Maskotki. Wszelkie prawa zastrzeżone.</p>
+</footer>
 </body>
 </html>
